@@ -12,6 +12,8 @@
 		B11E2CEC2A5AD9BB0039D77B /* Communicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2CEB2A5AD9BB0039D77B /* Communicable.swift */; };
 		B11E2CEE2A5ADDBA0039D77B /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2CED2A5ADDBA0039D77B /* Receiver.swift */; };
 		B11E2CF02A5ADDEA0039D77B /* Radar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2CEF2A5ADDEA0039D77B /* Radar.swift */; };
+		B11E2CF22A5AF3870039D77B /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2CF12A5AF3870039D77B /* Beacon.swift */; };
+		B11E2CF42A5AF3C70039D77B /* Belu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2CF32A5AF3C70039D77B /* Belu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		B11E2CEB2A5AD9BB0039D77B /* Communicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communicable.swift; sourceTree = "<group>"; };
 		B11E2CED2A5ADDBA0039D77B /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		B11E2CEF2A5ADDEA0039D77B /* Radar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar.swift; sourceTree = "<group>"; };
+		B11E2CF12A5AF3870039D77B /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		B11E2CF32A5AF3C70039D77B /* Belu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				B11E2CEB2A5AD9BB0039D77B /* Communicable.swift */,
 				B11E2CED2A5ADDBA0039D77B /* Receiver.swift */,
 				B11E2CEF2A5ADDEA0039D77B /* Radar.swift */,
+				B11E2CF12A5AF3870039D77B /* Beacon.swift */,
+				B11E2CF32A5AF3C70039D77B /* Belu.swift */,
 			);
 			path = Belu;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11E2CF02A5ADDEA0039D77B /* Radar.swift in Sources */,
+				B11E2CF42A5AF3C70039D77B /* Belu.swift in Sources */,
 				B11E2CEE2A5ADDBA0039D77B /* Receiver.swift in Sources */,
+				B11E2CF22A5AF3870039D77B /* Beacon.swift in Sources */,
 				B11E2CEC2A5AD9BB0039D77B /* Communicable.swift in Sources */,
 				B11E2CEA2A5AD99D0039D77B /* Request.swift in Sources */,
 			);
