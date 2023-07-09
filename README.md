@@ -109,7 +109,10 @@ let request: Request = Request(communication: PostUserID()) { (peripheral, chara
     
     print("success")
 }
+
+// assign dataa
 request.value = data
+
 Belu.send([request]) { completedRequests, error in
     if let error = error {
         print("timeout")
